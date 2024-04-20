@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link css file -->
+    <link rel="stylesheet" href="css/Pricing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google_font file -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200;1,400;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- urlbar icon -->
+    <link rel="icon" type="image/jpg" href="img/logo.png" />
+    <title>ABFC</title>
+
+</head>
+
+<body>
+    <div class="Container-fluid">
+        <div class="sidebar">
+            <section id="menu">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <div class="item">
+                        <ul class="nav-list">
+                            <li><img src="img/icons/dashbord-icon.png" alt=""><a href=""> Dashboard</a></li>
+                            <li><img src="img/icons/file.png"><a href="Index.html"> CDN List</a></li>
+                            <li><img src="img/icons/dashbord-icon.png"><a href="Items.html">Items & Trays</a></li>
+                            <li><img src="img/icons/dashbord-icon.png"><a href="Pricing.html">Pricing</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </div>
+        <div class="profile-contaient">
+            <div class="profile">
+                <div class="bell-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="far fa-bell"></i>
+                    <img src="img/profile-image.png" alt="">
+                    <select id="items">
+                        <option value="Man">Admin</option>
+                        <option value="Women">CDN G</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Pricing</h2>
+                <li> <a href="">Home > Pricing</a></li>
+                <div class="item-nav">
+                    <ul>
+                        <li><a href="Pricing.html">Items</a></li>
+                        <li><a href="Pricing_tray.html">Trays</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Pricing-box">
+                <div class=" col-md-12">
+                    <h2 class="Pricing-heading">Add Items</h2>
+                </div>
+                <div class="row Pricing-container">
+                    <div class="col-md-2">
+                        <div class="Pricing-field">
+                            <input type="text" id="economy" required>
+                            <label for="">Item ID</label>
+                        </div>
+                    </div>
+                    <div class=" col-md-3">
+                        <div class="Pricing2-field">
+                            <input type="text" id="economy" required>
+                            <label for="">Item Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="Pricing3-field">
+                            <input type="text" id="economy" required>
+                            <label for="">Item Description</label>
+                        </div>
+                    </div>
+                    <div class=" col-md-4">
+                        <div class="Checkbox">
+                            <h5>Active</h5>
+                            <span> <input type="checkbox" name="checkbox" id="toggle">
+                                <label for="toggle" class="switch"></label></span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row Validity-class">
+                    <div class="col-md-12">
+                        <div class="Validity">
+                            <h2>Validity</h2>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-2">
+                        <div class="Pricing-field">
+                            <input type="text" disabled>
+                            <label for="">From</label>
+                        </div>
+                    </div>
+                    <div class=" col-md-2">
+                        <div class="Pricing-field">
+                            <input type="text" disabled>
+                            <label for="">To</label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <select class="select-section">
+                            <option>Catogery</option>
+                            <option>Catogery1</option>
+                            <option>Catogery2</option>
+                        </select>
+                    </div>
+                    <div class=" col-md-12 ">
+                        <div class="submit-btn">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row price-details-box">
+                <div class="col-md-6">
+                    <div class="price-details">
+                        <h3>Price Details </h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="New-Client-btn">
+                        <button>Add New Clients</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Price-Validity">
+                        <h3>Price Validity </h3>
+                    </div>
+                </div>
+                <div class="col-md-10 client-prices ">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="base-price" style=" text-decoration: none;">Base-price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="local-price" style=" text-decoration: none;">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$" style=" text-decoration: none;">
+                        <label for="int-price" style=" text-decoration: none;">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <input type="number" placeholder="">
+                        <label for="item-unit" style=" text-decoration: none;">Unit</label>
+                    </div>
+                    <div class="Price-Validity">
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">From</label>
+                        </div>
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">To</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" style="margin-top:30px ;">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Price-Validity">
+                        <h3 style="position: relative;top: 60px;">Price Validity </h3>
+                    </div>
+                </div>
+                <div class="col-md-10 client-prices ">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="base-price" style=" text-decoration: none;">Base-price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="local-price" style=" text-decoration: none;">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$" style=" text-decoration: none;">
+                        <label for="int-price" style=" text-decoration: none;">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <input type="number" placeholder="">
+                        <label for="item-unit" style=" text-decoration: none;">Unit</label>
+                    </div>
+                    <div class="Price-Validity">
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">From</label>
+                        </div>
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">To</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="margin-top:30px ;">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Price-Validity ">
+                        <h3 style="position: relative;top: 60px;">Price Validity </h3>
+                    </div>
+                </div>
+                <div class="col-md-10 client-prices ">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="base-price" style=" text-decoration: none;">Base-price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR" style=" text-decoration: none;">
+                        <label for="local-price" style=" text-decoration: none;">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$" style=" text-decoration: none;">
+                        <label for="int-price" style=" text-decoration: none;">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <input type="number" placeholder="">
+                        <label for="item-unit" style=" text-decoration: none;">Unit</label>
+                    </div>
+                    <div class="Price-Validity">
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">From</label>
+                        </div>
+                        <div class="Validity-date">
+                            <input type="date">
+                            <label for="">To</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <!-- bootstrap javaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Fontawesome file -->
+    <script src="js/script1.js"></script>
+    <script src="https://kit.fontawesome.com/f02b90bf5a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
