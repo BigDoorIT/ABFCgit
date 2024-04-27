@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link css file -->
+    <link rel="stylesheet" href="css/Pricing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google_font file -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200;1,400;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!-- urlbar icon -->
+    <link rel="icon" type="image/jpg" href="img/logo.png" />
+    <title>ABFC</title>
+
+</head>
+
+<body>
+    <div class="Container-fluid">
+        <div class="sidebar">
+            <section id="menu">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <div class="item">
+                        <ul class="nav-list">
+                            <li><img src="img/icons/dashbord-icon.png" alt=""><a href=""> Dashboard</a></li>
+                            <li><img src="img/icons/file.png"><a href="Index.html"> CDN List</a></li>
+                            <li><img src="img/icons/dashbord-icon.png"><a href="Items.html">Items & Trays</a></li>
+                            <li><img src="img/icons/dashbord-icon.png"><a href="Pricing.html">Pricing</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </div>
+        <div class="profile-contaient">
+            <div class="profile">
+                <div class="bell-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="far fa-bell"></i>
+                    <img src="img/profile-image.png" alt="">
+                    <select id="items">
+                        <option value="Man">Admin</option>
+                        <option value="Women">CDN G</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="heading">
+                <h2>Pricing</h2>
+                <li> <a href="">Home > Pricing</a></li>
+                <div class="item-nav">
+                    <ul>
+                        <li><a href="Pricing.html">Items</a></li>
+                        <li style="border-bottom: 3px solid blue;"><a href="Pricing_tray.html">Trays</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Pricing-box">
+                <div class=" col-md-12">
+                    <h2 class="Pricing-heading" style="padding-left: 20px;">Add Set</h2>
+                </div>
+                <div>
+                    <div class="col-md-12 Pricing-container" style="display: flex;">
+                        <div class="Pricing-field" style="margin: 8px 6px;">
+                            <input type="text" id="" required>
+                            <label for="">Set ID</label>
+                        </div>
+                        <div class="Pricing2-field" style="margin: 8px 6px;">
+                            <input type="text" id="" required>
+                            <label for="">CAT ID</label>
+                        </div>
+                        <div class="Pricing3-field" style="margin: 8px 6px;">
+                            <input type="text" id="" required>
+                            <label for="">Set Description</label>
+                        </div>
+                        <div class="Checkbox" style="margin: 8px 6px;">
+                            <h5>Active</h5>
+                            <span> <input type="checkbox" name="checkbox" id="toggle">
+                                <label for="toggle" class="switch"></label>
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row Validity-class">
+                    <div class="col-md-12">
+                        <div class="Validity">
+                            <h2>Validity</h2>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-12 validity-box" style="display: flex;">
+                        <div class="Validity-date" style="margin: 8px 5px;">
+                            <input class="cdn-date" type="text">
+                            <label>From</label>
+                            <div class="date-img">
+                                <img src="img/icons/calender.png" alt="">
+                            </div>
+                        </div>
+                        <div class="Validity-date" style="margin: 8px 5px;">
+                            <input class="cdn-date" type="text">
+                            <label>To</label>
+                            <div class="date-img">
+                                <img src="img/icons/calender.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 " style="height: 200px;">
+                        <div class="Validity">
+                            <h2>Add Item</h2>
+                        </div>
+                        <div class="input-box-a">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search Item Here" />
+                            <div class="filt-icon"><i class="fa-solid fa-filter"></i></div>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-md-12 ">
+                        <div class="submit-btn">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Pricing-box1">
+                <div class="col-md-12 p-3">
+                    <h4 style="font-size: 16px;">Item Details</h4>
+
+                </div>
+                <p style="font-size: 12px;text-decoration: underline;">Item ID & Name</p>
+                <div class="item-details-inp col-md-12 p-3">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="base-price">Base price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+                    <div class="item-qty">
+                        <input type="number" placeholder="">
+                        <label for="item-qty">QTY</label>
+                    </div>
+                </div>
+                <p style="font-size: 12px;text-decoration: underline;">Item ID & Name</p>
+                <div class="item-details-inp col-md-12 p-3">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="base-price">Base price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+                    <div class="item-qty">
+                        <input type="number" placeholder="">
+                        <label for="item-qty">QTY</label>
+                    </div>
+                </div>
+                <p style="font-size: 12px;text-decoration: underline;">Item ID & Name</p>
+                <div class="item-details-inp col-md-12 p-3">
+                    <div class="base-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="base-price">Base price</label>
+                    </div>
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+                    <div class="item-qty">
+                        <input type="number" placeholder="">
+                        <label for="item-qty">QTY</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row price-details-box">
+                <div class="col-md-6">
+                    <div class="price-details">
+                        <h3>Tray Pricing Details </h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="New-Client-btn">
+                        <button>Add New Clients</button>
+                    </div>
+                </div>
+                <div class="col-md-12" style="display: flex; margin-top: 20px;">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                    <div class="Price-Validity" style="margin-left: 250px;">
+                        <h3>Price Validity </h3>
+                    </div>
+                </div>
+
+                <div class="col-md-12 client-prices ">
+
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+
+                    <div class="">
+                        <h6 class="Price-heading1">Price Validity</h6>
+                        <div class="Validity-date">
+                            <input class="cdn-date" type="text">
+                            <label>From</label>
+                            <div class="date-img">
+                                <img src="img/icons/calender.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Validity-date">
+                        <input class="cdn-date" type="text">
+                        <label>To</label>
+                        <div class="date-img">
+                            <img src="img/icons/calender.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-12" style="display: flex; margin-top: 20px;">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                    <div class="Price-Validity" style="margin-left: 250px;">
+                        <h3>Price Validity </h3>
+                    </div>
+                </div>
+                <div class="col-md-12 client-prices ">
+
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+
+                    <div class="">
+                        <h6 class="Price-heading1">Price Validity</h6>
+                        <div class="Validity-date">
+                            <input class="cdn-date" type="text">
+                            <label>From</label>
+                            <div class="date-img">
+                                <img src="img/icons/calender.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Validity-date">
+                        <input class="cdn-date" type="text">
+                        <label>To</label>
+                        <div class="date-img">
+                            <img src="img/icons/calender.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-12" style="display: flex; margin-top: 20px;">
+                    <div class="client-indigo">
+                        <h3>Client Name : Indigo</h3>
+                    </div>
+                    <div class="Price-Validity" style="margin-left: 250px;">
+                        <h3>Price Validity </h3>
+                    </div>
+                </div>
+                <div class="col-md-12 client-prices ">
+
+                    <div class="local-price">
+                        <input type="number" placeholder="PKR">
+                        <label for="local-price">Local-Rate</label>
+                    </div>
+                    <div class="int-price">
+                        <input type="number" placeholder="$">
+                        <label for="int-price">International Rate</label>
+                    </div>
+                    <div class="item-unit">
+                        <select>
+                            <option>unit1</option>
+                            <option>unit2</option>
+                            <option>unit3</option>
+                        </select>
+                        <label for="item-unit">Unit</label>
+                    </div>
+
+                    <div class="">
+                        <h6 class="Price-heading1">Price Validity</h6>
+                        <div class="Validity-date">
+                            <input class="cdn-date" type="text">
+                            <label>From</label>
+                            <div class="date-img">
+                                <img src="img/icons/calender.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Validity-date">
+                        <input class="cdn-date" type="text">
+                        <label>To</label>
+                        <div class="date-img">
+                            <img src="img/icons/calender.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>flatpickr(".cdn-date", {
+            onChange: function (selectedDates, dateStr, instance) {
+                console.log(dateStr);
+                const label = instance.element.parentNode.querySelector('label');
+                if (dateStr) {
+                    label.style.top = '0';
+                } else {
+                    label.style.top = '50%';
+                }
+
+            },
+        });</script>
+    <script src="js/nav.js"></script>
+    <!-- bootstrap javaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Fontawesome file -->
+    <script src="js/script1.js"></script>
+    <script src="https://kit.fontawesome.com/f02b90bf5a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

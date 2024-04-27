@@ -1,0 +1,361 @@
+@media only screen and (max-width: 798px) {
+    .nav-mobile {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px 0 0px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul li {
+        float: none;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+    }
+
+    nav ul li ul li a {
+        padding-left: 30px;
+    }
+
+    .nav-dropdown {
+        position: static;
+    }
+
+    .Container-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        width: 100%;
+        height: 100%;
+    }
+
+    .table-box-main {
+        width: 96%;
+        height: auto;
+        margin: 0;
+        margin-left: 8px;
+    }
+
+    .location-list {
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #dateInput {
+        margin-left: 10px;
+        width: 140px;
+    }
+
+    .location-list img {
+        position: relative;
+        overflow: hidden;
+        top: -25px;
+        right: -20px;
+    }
+
+    .cdn-button button {
+        width: 134px;
+        height: 32px;
+        margin: 0px 13px 20px 0px;
+        font-size: 13px;
+    }
+
+    #menu .logo {
+        padding: 11px 0 0 14px;
+    }
+
+    #menu .item {
+        margin: 0;
+    }
+
+    .bell-icon {
+        margin-right: 10px;
+    }
+
+    .profile {
+        display: flex;
+
+        align-items: center;
+    }
+
+    .table-box-main .table thead tr {
+        font-size: 8px;
+    }
+
+    .table-box-main .table tbody tr td {
+        font-family: Open Sans;
+        font-size: 11px;
+        font-weight: 400;
+
+    }
+
+    .pagination p {
+        font-size: 12px;
+
+    }
+
+    .pagination li {
+        font-size: 12px;
+    }
+
+    .sidebar-2 #menu {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* CDN Detailes */
+    .stepper-wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+
+    }
+
+    .stepper-item .step-counter {
+        width: 26px;
+        height: 25px;
+    }
+
+    .stepper-item::before,
+    .stepper-item::after,
+    .stepper-item.completed::after {
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid #C6C6C6;
+        width: 100%;
+        top: 12px;
+        left: 37%;
+
+    }
+
+    .stepper-item::before {
+        position: absolute;
+        left: -25px;
+    }
+
+    .step-name {
+        font-size: 11px;
+    }
+
+    .edit-button {
+        float: inline-end;
+        height: 25px;
+        width: 62px;
+        font-size: 10px;
+    }
+
+    #path i {
+        padding: 3px;
+    }
+
+    #path p {
+        font-size: 11px;
+    }
+
+    .edit-button svg {
+        height: 14px;
+        width: 14px;
+    }
+
+    .input-box {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .input {
+        margin: 10px;
+
+    }
+
+    #dateInputdate {
+        margin: 10px 0 0 10px;
+    }
+
+    .input-box img {
+        position: relative;
+        top: -29px;
+        left: 181px;
+    }
+
+    .select {
+        margin: 10px;
+    }
+
+    #addClassButton {
+        height: 31px;
+        width: 113px;
+    }
+
+    .add-services {
+        height: 31px;
+        width: 113px;
+    }
+
+    .service-box {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #inputContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field {
+
+        margin: 20px 10px 0px 0px;
+    }
+
+    #origin {
+        margin: 20px;
+    }
+
+    #destination {
+        margin: 0 0 0 20px;
+
+    }
+
+    .input-leg input {
+        margin: 0 0 0 22px;
+    }
+
+    #datepicker {
+        margin: 16px 0 0 20px;
+    }
+
+    .input-time input {
+        margin: 0px 0 0 20px;
+    }
+
+    .form-check-label {
+        font-size: 13px;
+    }
+
+    .bottom-buttonsa,
+    .bottom-buttons {
+        height: 27px;
+        width: 65px;
+        font-size: 13px;
+    }
+
+    .service-section img {
+        position: relative;
+        top: -31px;
+        right: 24px;
+
+    }
+
+    .table-box {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .input-leg label {
+        position: absolute;
+        top: 50%;
+        left: 24px;
+    }
+
+    .list-food h4 {
+        font-size: 13px;
+    }
+
+    .cdn-template {
+        width: 124px;
+        height: 32px;
+        font-size: 12px;
+        margin: 2px;
+    }
+
+    .iteams-list-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .div-x {
+        margin: 0;
+    }
+
+    .item-table-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .table>thead {
+
+        font-size: 7px;
+    }
+
+    .buttons2,
+    .buttons1 {
+        height: 25px;
+        width: 66px;
+        margin: 10px 13px;
+        font-size: 10px;
+    }
+
+    .for-order input,
+    .recived-by input {
+        width: 113px;
+        height: auto;
+    }
+
+    .for-order,
+    .recived-by {
+        padding: 0;
+    }
+
+    .div-y input,
+    .div-x input {
+        margin: 0;
+    }
+
+    .for-order label,
+    .recived-by {
+        font-size: 10px;
+    }
+
+    .table-data {
+        width: auto;
+        height: auto;
+    }
+
+    .table-data {
+        width: 20px;
+        height: auto;
+    }
+
+    .table-box .table thead tr {
+        line-height: 10px;
+        font-size: 8px;
+    }
+
+    .table-box .table tbody tr td {
+        font-size: 8px;
+    }
+
+}
+
+
+@media screen and (min-width: 799px) {
+    .nav-list {
+        display: block !important;
+    }
+}
